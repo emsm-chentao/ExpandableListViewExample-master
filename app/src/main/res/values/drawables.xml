@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent">#00ffffff</drawable>
+    <drawable name="f3f3f3">#f3f3f3</drawable>
+    <drawable name="trans_half">#22999999</drawable>
+    <drawable name="ff644f">#ff644f</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="gray">#55cccccc</drawable>
+    <drawable name="gray1">#BBFFFFFF</drawable>
+    <drawable name="cgy_left_normal">#f8f8f8</drawable>
+    <drawable name="c_33">#333333</drawable>
+    <drawable name="c_dd28">#dd2828</drawable>
+    <drawable name="c_ef">#efefef</drawable>
+    <drawable name="c_f5">#f5f5f5</drawable>
+    <drawable name="c_cc">#cccccc</drawable>
+    <drawable name="c_selecf">#ff6666</drawable>
+    <drawable name="c_FF644F">#FF644F</drawable>
+    <drawable name="c_selecn">#22ff6666</drawable>
+    <drawable name="c_blak_88">#88000000</drawable>
+
+</resources>

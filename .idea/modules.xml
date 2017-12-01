@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:\updataGithub\ExpandableListViewExample-master\ExpandableListViewExample.iml" filepath="E:\updataGithub\ExpandableListViewExample-master\ExpandableListViewExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpandableListViewExample-master.iml" filepath="$PROJECT_DIR$/ExpandableListViewExample-master.iml" />
+      <module fileurl="file://E:\updataGithub\ExpandableListViewExample-master\ExpandableListViewExamples.iml" filepath="E:\updataGithub\ExpandableListViewExample-master\ExpandableListViewExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
