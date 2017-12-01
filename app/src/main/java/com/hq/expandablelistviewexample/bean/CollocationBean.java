@@ -3,10 +3,10 @@ package com.hq.expandablelistviewexample.bean;
 import java.math.BigDecimal;
 import java.util.List;
 
-public class CollocationPackageBean {
+public class CollocationBean {
     private BigDecimal totalPrice;
     private String name;
-    private List<CollocationSkuBean> collocationSkuDoList;
+    private List<CollocationChildBean> collocationSkuDoList;
     private BigDecimal discountFee;
     private boolean isCheckBox;
 
@@ -34,11 +34,11 @@ public class CollocationPackageBean {
         this.name = name;
     }
 
-    public List<CollocationSkuBean> getCollocationSkuDoList() {
+    public List<CollocationChildBean> getCollocationSkuDoList() {
         return collocationSkuDoList;
     }
 
-    public void setCollocationSkuDoList(List<CollocationSkuBean> collocationSkuDoList) {
+    public void setCollocationSkuDoList(List<CollocationChildBean> collocationSkuDoList) {
         this.collocationSkuDoList = collocationSkuDoList;
     }
 

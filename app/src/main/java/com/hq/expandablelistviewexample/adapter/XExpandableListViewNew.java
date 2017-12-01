@@ -32,7 +32,7 @@ import java.util.Locale;
  * @date 2013-10-08
  * 功能介绍： 支持自动下拉刷新  自动加载更多
  */
-public class XListViewNew extends ExpandableListView implements OnScrollListener {
+public class XExpandableListViewNew extends ExpandableListView implements OnScrollListener {
     private ImageView header_progressbar;
     private final static int SCROLL_BACK_HEADER = 0;
     private final static int SCROLL_BACK_FOOTER = 1;
@@ -78,17 +78,17 @@ public class XListViewNew extends ExpandableListView implements OnScrollListener
     // total list items, used to detect is at the bottom of ListView
     private int mTotalItemCount;
 
-    public XListViewNew(Context context) {
+    public XExpandableListViewNew(Context context) {
         super(context);
         initWithContext(context);
     }
 
-    public XListViewNew(Context context, AttributeSet attrs) {
+    public XExpandableListViewNew(Context context, AttributeSet attrs) {
         super(context, attrs);
         initWithContext(context);
     }
 
-    public XListViewNew(Context context, AttributeSet attrs, int defStyle) {
+    public XExpandableListViewNew(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         initWithContext(context);
     }

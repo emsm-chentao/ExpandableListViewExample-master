@@ -6,12 +6,12 @@ import java.util.List;
  * Created by Administrator on 2017/11/30.
  */
 
-public class CollocationSkuBean {
+public class CollocationChildBean {
     private String skuTitle;
     private String imageMd5;
     private boolean isShow;
     private boolean isCheckBox;
-    private List<CollocationSkuChildBean> collocationSkuChildBeans;
+    private List<CollocationChildChildBean> collocationSkuChildBeans;
 
     public boolean isCheckBox() {
         return isCheckBox;
@@ -22,11 +22,11 @@ public class CollocationSkuBean {
     }
 
 
-    public List<CollocationSkuChildBean> getCollocationSkuChildBeans() {
+    public List<CollocationChildChildBean> getCollocationSkuChildBeans() {
         return collocationSkuChildBeans;
     }
 
-    public void setCollocationSkuChildBeans(List<CollocationSkuChildBean> collocationSkuChildBeans) {
+    public void setCollocationSkuChildBeans(List<CollocationChildChildBean> collocationSkuChildBeans) {
         this.collocationSkuChildBeans = collocationSkuChildBeans;
     }
 
@@ -38,7 +38,7 @@ public class CollocationSkuBean {
         isShow = show;
     }
 
-    public CollocationSkuBean(String skuTitle, String imageMd5, boolean isShow, List<CollocationSkuChildBean> collocationSkuChildBeans, boolean isCheckBox) {
+    public CollocationChildBean(String skuTitle, String imageMd5, boolean isShow, List<CollocationChildChildBean> collocationSkuChildBeans, boolean isCheckBox) {
         this.skuTitle = skuTitle;
         this.imageMd5 = imageMd5;
         this.isShow = isShow;

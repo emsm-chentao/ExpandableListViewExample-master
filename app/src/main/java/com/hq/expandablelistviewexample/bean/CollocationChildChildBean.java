@@ -4,7 +4,7 @@ package com.hq.expandablelistviewexample.bean;
  * Created by Administrator on 2017/11/30.
  */
 
-public class CollocationSkuChildBean {
+public class CollocationChildChildBean {
     private String skuTitle;
     private String imageMd5;
     private int number;
@@ -26,7 +26,7 @@ public class CollocationSkuChildBean {
         this.isCheckBox = checkBox;
     }
 
-    public CollocationSkuChildBean(String skuTitle, String imageMd5, int number, boolean isCheckBox) {
+    public CollocationChildChildBean(String skuTitle, String imageMd5, int number, boolean isCheckBox) {
         this.skuTitle = skuTitle;
         this.imageMd5 = imageMd5;
         this.number = number;

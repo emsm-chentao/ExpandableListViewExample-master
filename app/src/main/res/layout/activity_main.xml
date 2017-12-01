@@ -53,7 +53,7 @@
         </com.zhy.autolayout.AutoLinearLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <com.hq.expandablelistviewexample.adapter.XListViewNew
+    <com.hq.expandablelistviewexample.adapter.XExpandableListViewNew
         android:id="@+id/elv_collocation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

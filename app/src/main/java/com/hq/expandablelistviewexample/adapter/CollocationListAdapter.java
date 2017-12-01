@@ -15,8 +15,8 @@ import android.widget.Toast;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.hq.expandablelistviewexample.R;
-import com.hq.expandablelistviewexample.bean.CollocationPackageBean;
-import com.hq.expandablelistviewexample.bean.CollocationSkuBean;
+import com.hq.expandablelistviewexample.bean.CollocationBean;
+import com.hq.expandablelistviewexample.bean.CollocationChildBean;
 import com.hq.expandablelistviewexample.widget.CustomView;
 import com.zhy.autolayout.utils.AutoUtils;
 
@@ -25,10 +25,10 @@ import java.util.List;
 public class CollocationListAdapter extends BaseExpandableListAdapter {
     private LayoutInflater inflater;
     private Context context;
-    private XListViewNew elv_collocation;
-    private List<CollocationPackageBean> data;
+    private XExpandableListViewNew elv_collocation;
+    private List<CollocationBean> data;
 
-    public CollocationListAdapter(Context context, XListViewNew elv_collocation, List<CollocationPackageBean> data) {
+    public CollocationListAdapter(Context context, XExpandableListViewNew elv_collocation, List<CollocationBean> data) {
         this.context = context;
         this.elv_collocation = elv_collocation;
         this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -86,7 +86,7 @@ public class CollocationListAdapter extends BaseExpandableListAdapter {
         } else {
             parentViewHolder = (ParentViewHolder) convertView.getTag();
         }
-        CollocationPackageBean collocationPackageBean = data.get(groupPosition);
+        CollocationBean collocationPackageBean = data.get(groupPosition);
         parentViewHolder.tv_collocation_name.setText(TextUtils.isEmpty(collocationPackageBean.getName()) ? "优惠套餐" : collocationPackageBean.getName());
         parentViewHolder.tv_save_text.setText("立省￥" + collocationPackageBean.getDiscountFee());
         parentViewHolder.iv_status.setImageResource(isExpanded ? R.mipmap.icon_top : R.mipmap.icon_bottom);
@@ -125,7 +125,7 @@ public class CollocationListAdapter extends BaseExpandableListAdapter {
         } else {
             childViewHolder = (ChildViewHolder) convertView.getTag();
         }
-        final CollocationSkuBean collocationSkuBean = data.get(groupPosition).getCollocationSkuDoList().get(childPosition);
+        final CollocationChildBean collocationSkuBean = data.get(groupPosition).getCollocationSkuDoList().get(childPosition);
         childViewHolder.sdv_goods_img.setImageURI(Uri.parse(collocationSkuBean.getImageMd5()));
         childViewHolder.tv_goods_title.setText(collocationSkuBean.getSkuTitle());
         childViewHolder.ll_root_view.setOnClickListener(new View.OnClickListener() {
@@ -160,7 +160,7 @@ public class CollocationListAdapter extends BaseExpandableListAdapter {
         return convertView;
     }
 
-    private void getIsShowChildChild(final int groupPosition, final int childPosition, final CollocationSkuBean collocationSkuBean, LinearLayout rootview) {
+    private void getIsShowChildChild(final int groupPosition, final int childPosition, final CollocationChildBean collocationSkuBean, LinearLayout rootview) {
         if (collocationSkuBean.isShow()) {
             rootview.setVisibility(View.VISIBLE);
             rootview.removeAllViews();
