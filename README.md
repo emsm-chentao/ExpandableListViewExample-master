@@ -12,11 +12,11 @@ ___
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)   屏幕适配框架
 
 Demo来自某个线上电商app的页面, 使用前先看看效果图
-![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/img/WeChat_20171201143242.mp4)
-![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/img/001.jpg)
-![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/img/002.jpg)
-![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/img/003.jpg)
-![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/img/004.jpg)
+![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/iamge/WeChat_20171201143242.mp4)
+![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge/001.jpg)
+![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge/002.jpg)
+![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge/003.jpg)
+![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge/004.jpg)
 
 ####1. 如果子条目需要响应click事件,必需返回true
 ```
