@@ -16,7 +16,7 @@ Demo来自某个线上电商app的页面, 使用前先看看效果图
 ![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/img/微信图片_20171201143429.jpg)
 ![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/img/微信图片_20171201143433.jpg)
 ![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/img/微信图片_20171201143437.jpg)
-![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/img/微信图片_20171201143441.jpg)
+![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample-master/blob/master/img/微信图片_20171201143441.jpg)
 
 ####1. 如果子条目需要响应click事件,必需返回true
 ```
