@@ -12,7 +12,7 @@ ___
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)   屏幕适配框架
 
 
-![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/iamge/WeChat_20171201143242.mp4)
+![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge/WeChat_20171201143242.mp4)
 ![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge01/001.jpg)
 ![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge01/002.jpg)
 ![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge01/003.jpg)
