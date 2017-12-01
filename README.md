@@ -1,3 +1,6 @@
+
+# ExpandableListViewExample-master
+  高仿京东购物车　ExpandableListView 来实现  并且ExpandableListView支持刷新　和自动刷新
 ___
 ##一、简介
 高仿京东购物车　ExpandableListView 来实现  并且ExpandableListView支持刷新　和自动刷新
