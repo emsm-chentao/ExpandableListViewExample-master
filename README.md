@@ -11,7 +11,7 @@ ___
 * [Fresco](https://github.com/facebook/fresco)  图片加载缓存框架
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)   屏幕适配框架
 
-Demo来自某个线上电商app的页面, 使用前先看看效果图
+
 ![demo演示](https://github.com/hexianqiao3755/ExpandableListViewExample/blob/master/iamge/WeChat_20171201143242.mp4)
 ![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge01/001.jpg)
 ![demo演示](https://github.com/chentao753951/ExpandableListViewExample-master/blob/master/iamge01/002.jpg)
