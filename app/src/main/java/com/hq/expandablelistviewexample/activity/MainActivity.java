@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements CollocationListAd
             private void setData() {
                 try {
                     isCKBAll = !isCKBAll;
+                    ckb_all.setChecked(isCKBAll);
                     for (int a = 0; a < collocationList.size(); a++) {
                         CollocationBean collocationPackageBea = collocationList.get(a);
                         collocationPackageBea.setCheckBox(isCKBAll);
