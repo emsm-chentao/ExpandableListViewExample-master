@@ -14,6 +14,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
+import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -135,6 +136,16 @@ public class XExpandableListViewNew extends ExpandableListView implements OnScro
                 }
             });
         }
+    }
+    @Override
+    public void setAdapter(ExpandableListAdapter adapter) {
+        // make sure XFooterView is the last footer view, and only add once.
+        if (!mIsFooterReady) {
+            mIsFooterReady = true;
+            addFooterView(mFooterLayout);
+        }
+
+        super.setAdapter(adapter);
     }
 
     @Override

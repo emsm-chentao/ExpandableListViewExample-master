@@ -33,6 +33,18 @@ public class MainActivity extends AppCompatActivity implements CollocationListAd
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         elv_collocation = (XExpandableListViewNew) findViewById(R.id.elv_collocation);
+        elv_collocation.setPullLoadEnable(false);
+        elv_collocation.setXListViewListener(new XExpandableListViewNew.IXListViewListener() {
+            @Override
+            public void onRefresh() {
+                elv_collocation.stopRefresh();
+            }
+
+            @Override
+            public void onLoadMore() {
+                elv_collocation.stopLoadMore();
+            }
+        });
         initData();
 
         final TextView tv_title = (TextView) findViewById(R.id.tv_title);
