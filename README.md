@@ -1,16 +1,15 @@
 
 # ExpandableListViewExample-master
-  高仿京东购物车　ExpandableListView 来实现  并且ExpandableListView支持刷新　和自动刷新
-___
-##一、简介
-高仿京东购物车　ExpandableListView 来实现  并且ExpandableListView支持刷新　和自动刷新
 
-##二、使用
-> 引用, AndroidStudio使用Gradle构建添加依赖（推荐）
+##简介
+  > 通过ExpandableListView实现京东购物车并支持自动下拉刷新
+
+##使用
+  > 引用, AndroidStudio使用Gradle构建添加依赖（推荐）
 * compile 'com.facebook.fresco:fresco:0.9.0'
 * compile 'com.zhy:autolayout:1.4.5'
 
-> 使用到的第三方框架
+  > 使用到的第三方框架
 * [Fresco](https://github.com/facebook/fresco)  图片加载缓存框架
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)   屏幕适配框架
 
